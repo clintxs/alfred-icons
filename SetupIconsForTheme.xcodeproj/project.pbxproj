@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABBCF18218C5F15E0041225C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBCF18118C5F15E0041225C /* Foundation.framework */; };
+		ABBCF18518C5F15E0041225C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBCF18418C5F15E0041225C /* main.m */; };
+		ABBCF18918C5F15E0041225C /* SetupIconsForTheme.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABBCF18818C5F15E0041225C /* SetupIconsForTheme.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ABBCF17C18C5F15E0041225C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				ABBCF18918C5F15E0041225C /* SetupIconsForTheme.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ABBCF17E18C5F15E0041225C /* SetupIconsForTheme */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SetupIconsForTheme; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBCF18118C5F15E0041225C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABBCF18418C5F15E0041225C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABBCF18718C5F15E0041225C /* SetupIconsForTheme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SetupIconsForTheme-Prefix.pch"; sourceTree = "<group>"; };
+		ABBCF18818C5F15E0041225C /* SetupIconsForTheme.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SetupIconsForTheme.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABBCF17B18C5F15E0041225C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBCF18218C5F15E0041225C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABBCF17518C5F15E0041225C = {
+			isa = PBXGroup;
+			children = (
+				ABBCF18318C5F15E0041225C /* SetupIconsForTheme */,
+				ABBCF18018C5F15E0041225C /* Frameworks */,
+				ABBCF17F18C5F15E0041225C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABBCF17F18C5F15E0041225C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABBCF17E18C5F15E0041225C /* SetupIconsForTheme */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABBCF18018C5F15E0041225C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABBCF18118C5F15E0041225C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABBCF18318C5F15E0041225C /* SetupIconsForTheme */ = {
+			isa = PBXGroup;
+			children = (
+				ABBCF18418C5F15E0041225C /* main.m */,
+				ABBCF18818C5F15E0041225C /* SetupIconsForTheme.1 */,
+				ABBCF18618C5F15E0041225C /* Supporting Files */,
+			);
+			path = SetupIconsForTheme;
+			sourceTree = "<group>";
+		};
+		ABBCF18618C5F15E0041225C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABBCF18718C5F15E0041225C /* SetupIconsForTheme-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABBCF17D18C5F15E0041225C /* SetupIconsForTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBCF18C18C5F15E0041225C /* Build configuration list for PBXNativeTarget "SetupIconsForTheme" */;
+			buildPhases = (
+				ABBCF17A18C5F15E0041225C /* Sources */,
+				ABBCF17B18C5F15E0041225C /* Frameworks */,
+				ABBCF17C18C5F15E0041225C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SetupIconsForTheme;
+			productName = SetupIconsForTheme;
+			productReference = ABBCF17E18C5F15E0041225C /* SetupIconsForTheme */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABBCF17618C5F15E0041225C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Clinton Strong";
+			};
+			buildConfigurationList = ABBCF17918C5F15E0041225C /* Build configuration list for PBXProject "SetupIconsForTheme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABBCF17518C5F15E0041225C;
+			productRefGroup = ABBCF17F18C5F15E0041225C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABBCF17D18C5F15E0041225C /* SetupIconsForTheme */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABBCF17A18C5F15E0041225C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBCF18518C5F15E0041225C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ABBCF18A18C5F15E0041225C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ABBCF18B18C5F15E0041225C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ABBCF18D18C5F15E0041225C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SetupIconsForTheme/SetupIconsForTheme-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABBCF18E18C5F15E0041225C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SetupIconsForTheme/SetupIconsForTheme-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABBCF17918C5F15E0041225C /* Build configuration list for PBXProject "SetupIconsForTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBCF18A18C5F15E0041225C /* Debug */,
+				ABBCF18B18C5F15E0041225C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABBCF18C18C5F15E0041225C /* Build configuration list for PBXNativeTarget "SetupIconsForTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBCF18D18C5F15E0041225C /* Debug */,
+				ABBCF18E18C5F15E0041225C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABBCF17618C5F15E0041225C /* Project object */;
+}

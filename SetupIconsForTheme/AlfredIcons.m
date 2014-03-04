@@ -13,17 +13,14 @@
 -(id)init
 {
     if (self = [super init]) {
-        NSString *error;
-        NSPropertyListFormat format;
-        
         NSString *alfredPrefsPlistPath = [@"~/Library/Preferences/com.runningwithcrayons.Alfred-Preferences.plist" stringByExpandingTildeInPath];
         
         NSData *prefsPlistData = [NSData dataWithContentsOfFile:alfredPrefsPlistPath];
         
-        alfredPreferences = [NSPropertyListSerialization propertyListFromData:prefsPlistData
-                                                             mutabilityOption:NSPropertyListImmutable
-                                                                       format:&format
-                                                             errorDescription:&error];
+        alfredPreferences = [NSPropertyListSerialization propertyListWithData:prefsPlistData
+                                                                      options:NSPropertyListImmutable
+                                                                       format:NULL
+                                                                        error:NULL];
     }
     
     return self;
@@ -60,17 +57,14 @@
         return appearancePreferences;
     }
     
-    NSString *error;
-    NSPropertyListFormat format;
-    
     NSString *appearancePlistPath = [[self pathToSyncFolder] stringByAppendingString:@"/Alfred.alfredpreferences/preferences/appearance/prefs.plist"];
     
     NSData *appearancePlistData = [NSData dataWithContentsOfFile:appearancePlistPath];
     
-    appearancePreferences = [NSPropertyListSerialization propertyListFromData:appearancePlistData
-                                                             mutabilityOption:NSPropertyListImmutable
-                                                                       format:&format
-                                                             errorDescription:&error];
+    appearancePreferences = [NSPropertyListSerialization propertyListWithData:appearancePlistData
+                                                                      options:NSPropertyListImmutable
+                                                                       format:NULL
+                                                                        error:NULL];
     
     return appearancePreferences;
 }

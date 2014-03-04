@@ -8,15 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
+#include "AlfredIcons.h"
+
 int main(int argc, const char * argv[])
 {
-
+    
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        AlfredIcons *app = [[AlfredIcons alloc] init];
+        
+        [app swapFileNamesBasedOnCurrentTheme];
         
     }
     return 0;
 }
-

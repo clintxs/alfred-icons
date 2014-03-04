@@ -10,6 +10,8 @@
 		ABBCF18218C5F15E0041225C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBCF18118C5F15E0041225C /* Foundation.framework */; };
 		ABBCF18518C5F15E0041225C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBCF18418C5F15E0041225C /* main.m */; };
 		ABBCF18918C5F15E0041225C /* SetupIconsForTheme.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABBCF18818C5F15E0041225C /* SetupIconsForTheme.1 */; };
+		ABBCF19118C5F17B0041225C /* AlfredIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBCF19018C5F17B0041225C /* AlfredIcons.m */; };
+		ABBCF19318C5F4220041225C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBCF19218C5F4220041225C /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,9 @@
 		ABBCF18418C5F15E0041225C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABBCF18718C5F15E0041225C /* SetupIconsForTheme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SetupIconsForTheme-Prefix.pch"; sourceTree = "<group>"; };
 		ABBCF18818C5F15E0041225C /* SetupIconsForTheme.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SetupIconsForTheme.1; sourceTree = "<group>"; };
+		ABBCF18F18C5F17B0041225C /* AlfredIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlfredIcons.h; sourceTree = "<group>"; };
+		ABBCF19018C5F17B0041225C /* AlfredIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlfredIcons.m; sourceTree = "<group>"; };
+		ABBCF19218C5F4220041225C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABBCF19318C5F4220041225C /* Cocoa.framework in Frameworks */,
 				ABBCF18218C5F15E0041225C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +71,7 @@
 		ABBCF18018C5F15E0041225C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ABBCF19218C5F4220041225C /* Cocoa.framework */,
 				ABBCF18118C5F15E0041225C /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -74,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				ABBCF18418C5F15E0041225C /* main.m */,
+				ABBCF18F18C5F17B0041225C /* AlfredIcons.h */,
+				ABBCF19018C5F17B0041225C /* AlfredIcons.m */,
 				ABBCF18818C5F15E0041225C /* SetupIconsForTheme.1 */,
 				ABBCF18618C5F15E0041225C /* Supporting Files */,
 			);
@@ -139,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABBCF19118C5F17B0041225C /* AlfredIcons.m in Sources */,
 				ABBCF18518C5F15E0041225C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

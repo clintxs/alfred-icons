@@ -131,13 +131,15 @@
     
     for (NSString *imagePath in images) {
         pathWithoutExtension = [[imagePath componentsSeparatedByString:@"."] objectAtIndex:0];
+        // -light.png denotes a light icon, designed for dark themes
         lightPath = [pathWithoutExtension stringByAppendingString:@"-light.png"];
+        // -dark.png denotes a dark icon, designed for light themes
         darkPath = [pathWithoutExtension stringByAppendingString:@"-dark.png"];
         
-        if ([fm fileExistsAtPath:lightPath] && [self isThemeLight]) {
+        if ([fm fileExistsAtPath:lightPath] && [self isThemeDark]) {
             [fm moveItemAtPath:imagePath toPath:darkPath error:nil];
             [fm moveItemAtPath:lightPath toPath:imagePath error:nil];
-        } else if ([fm fileExistsAtPath:darkPath] && [self isThemeDark]) {
+        } else if ([fm fileExistsAtPath:darkPath] && [self isThemeLight]) {
             [fm moveItemAtPath:imagePath toPath:lightPath error:nil];
             [fm moveItemAtPath:darkPath toPath:imagePath error:nil];
         }

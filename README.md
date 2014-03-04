@@ -1,4 +1,4 @@
-![Automatically switch to light icons on a dark theme.](http://clintonstrong.com/i/9fdb7c.png)
+![Automatically switch to light icons on a dark theme.](http://clintonstrong.com/i/3b09f9.png)
 
 Bundle both light and dark icons with your theme, and let alfred-icons decide which ones to use. This eliminates the need to maintain two separate workflows for light and dark themes; it just works.
 
